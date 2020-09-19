@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script>
+      let myName = "";
+
+      function onMyNameChange(value){
+        $("#name").text(value);
+      }
+
+      function onMyPointChange(value){
+        $("#point").text(value);
+      }
+  </script>
+  <body>
+
+    <h2>MyState</h2>
+    <h3>
+      <span id="name">이름없음</span>님의 점수는 <span id="point">0</span> 입니다.
+    </h3>
+    <hr />
+
+    <div>
+      <label htmlFor="myNameInput">이름 : </label>
+      <input id="myNameInput" type="text" oninput="onMyNameChange(this.value)"></input>
+      <label htmlFor="myNamePoint">점수 : </label>
+      <input id="myNamePoint" type="text" oninput="onMyPointChange(this.value)"></input>
+    </div>
+  </body>
+</html>

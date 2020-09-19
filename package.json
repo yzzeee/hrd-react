@@ -1,0 +1,53 @@
+{
+  "name": "06-bootstrap",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "bootstrap": "3",
+    "jquery": "^3.5.1",
+    "moment": "^2.27.0",
+    "node-sass": "^4.14.1",
+    "qs": "^6.9.4",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.2.2",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "01": "cd 01-hello-react && yarn run start",
+    "02": "cd 02-simple-spa && yarn run start",
+    "03": "cd 03-jsx && yarn run start",
+    "04": "cd 04-props && yarn run start",
+    "05": "cd 05-stylesheet && yarn run start",
+    "06": "cd 06-bootstrap && yarn run start",
+    "07": "cd 07-hook-event && yarn run start",
+    "08": "cd 08-simple-ajax && yarn run start",
+    "09": "cd 09-class-component && yarn run start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
